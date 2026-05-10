@@ -1,0 +1,215 @@
+body {
+    background-color: hsl(328, 79%, 96%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 2vh auto;
+    margin-top: 0%;
+    padding: 0;
+    width: 70%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.cont_content {
+    margin: 1vh;
+    padding: 3vh;
+    width: 95%;
+    height: auto;
+}
+
+/* diseño de descripción */
+.description {
+    margin: 2vh;
+    padding: 2vh;
+    padding-top: 0.5vh;
+    width: 96%;
+}
+
+/*diseño de letras*/
+h1 {
+    padding: 0;
+    font-size: 10vh;
+    font-family: Outfit;
+}
+
+p {
+    padding: auto;
+    font-size: 3.7vh;
+    font-family: Young-Serif;
+    font-weight: 400;
+    width: 100%;
+}
+
+/* diseño de imagen */
+.description img {
+    margin: 2vh 0 0 -1.5vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* diseño de preparacion */
+.preparation {
+    margin-left: 2vh;
+    padding: 2vh;
+    width: 93.5%;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+
+/* diseño de título de preparacion */
+h3 {
+    font-family: Outfit;
+    font-size: 5.5vh;
+    margin: 1vh 0 1vh 2vh;
+    padding: 0;
+    color: hsl(332, 51%, 32%);
+
+}
+
+/* diseño de contenido de preparacion */
+li {
+    font-family: Young-Serif;
+    font-size: 3.7vh;
+    font-weight: 400;
+    margin: 0 0 1vh 1vh;
+    padding: 1.5vh 0 0 3vh;
+}
+
+/* diseño de ingredientes */
+.ingredients {
+    margin: 2vh 0 2vh -2vh;
+    padding: 2vh;
+    width: 100%;
+}
+
+/* diseño de título de ingredientes */ 
+.ingredients h2 {
+    font-family: Outfit;
+    font-size: 6.5vh;
+    margin: 1vh 0 1vh 3vh;
+    padding: 0;
+    color:  hsl(14, 45%, 36%);
+}
+
+hr {
+    margin: 0 0 2vh 3vh;
+    width: 94%;
+    border: 0.5 solid hsl(14, 45%, 36%);
+}
+
+/* diseño de instruction */
+.Instruction {
+    margin: 2vh 0 2vh -2vh;
+    padding: 2vh;
+    width: 95%;
+}
+
+/* diseño de título de instruction */  
+.Instruction h2 {
+    font-family: Outfit;
+    font-size: 6.5vh;
+    margin: 1vh 0 1vh 3vh;
+    padding: 0;
+    color:  hsl(14, 45%, 36%);
+
+}
+
+/* diseño de contenido de instruction */
+.Instruction li::marker {
+    font-family: Young-Serif;
+    font-size: 3.7vh;
+    font-weight: 400;
+    margin: 0 0 1vh 1vh;
+    padding: 1.5vh 0 0 3vh;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+/* diseño de nutrición */
+.nutrition {
+    margin: 2vh 0 2vh -2vh;
+    padding: 2vh;
+    width: 95%;
+}
+
+/* diseño de título de nutrición */
+.nutrition h2 {
+    font-family: Outfit;
+    font-size: 6.5vh;
+    margin: 1vh 0 1vh 3vh;
+    padding: 0;
+    color:  hsl(14, 45%, 36%);
+}
+
+.nutrition p {
+    font-family: Young-Serif;
+    font-size: 3.7vh;
+    font-weight: 400;
+    margin: 0 0 1vh 0;
+    padding: 1.5vh 0 0 3vh;
+}
+
+.nutrition table {
+    width: 100%;
+    margin: 2vh 0 0 3vh;
+    border-collapse: collapse;
+    margin-top: 1vh;
+}
+
+.nutrition th, .nutrition td {
+    border-bottom: 0.1px solid rgb(199, 199, 182);
+    padding: 2vh 0 2vh 5vh;
+    text-align: left;
+    font-family: Young-Serif;
+    font-size: 3.7vh;
+    font-weight: 400;
+}
+.BorderNot {
+    border-bottom: hidden;
+}
+
+.nutrition td {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+/* Responsive design */
+/* @media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+    .cont_content {
+        padding: 2vh;
+    }
+    h1 {
+        font-size: 6vh;
+    }
+    p {
+        font-size: 3vh;
+    }
+    .description img {
+        width: 100%;
+    }
+    .preparation {
+        width: 100%;
+        padding: 1vh;
+    }
+    h3 {
+        font-size: 4vh;
+        margin-left: 1vh;
+    }
+    li {
+        font-size: 2.5vh;
+        padding-left: 2vh;
+    }
+    .ingredients h2 {
+        font-size: 5vh;
+        margin-left: 1vh;
+    }
+    hr {
+        margin-left: 1vh;
+        width: 98%;
+    }
+} */
