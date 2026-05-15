@@ -178,39 +178,106 @@ hr {
 /* Responsive design */
  @media (max-width: 1200px) {
     .container {
-        width: 90%;
+        width: 95%;
     }
-/*
+/* diseño de contenido */
+
     .cont_content {
         padding: 2vh;
+        margin: 1vh 1vh 1vh 2vh;
     }
+/* diseño de descripción */
+    .description {
+        margin: 2vh 1vh 0 1vh;
+        padding: 2vh 0 -1vh -2vh;
+        width: 98%;
+    }
+/* diseño de letras */
     h1 {
-        font-size: 6vh;
+        font-size: 7.5vh;
     }
     p {
-        font-size: 3vh;
+        font-size: 4vh;
     }
+/* diseño de imagen */
     .description img {
         width: 100%;
     }
+/* diseño de preparación */
     .preparation {
-        width: 100%;
-        padding: 1vh;
+        width: 95%;
+        padding: 2vh;
     }
+/* diseño de título de preparación */
     h3 {
-        font-size: 4vh;
+        font-size: 5vh;
         margin-left: 1vh;
     }
+/* diseño de contenido de preparación */
     li {
-        font-size: 2.5vh;
+        font-size: 3.5vh;
         padding-left: 2vh;
     }
+/* diseño de ingredientes */    
+.ingredients {
+        width: 95%;
+        padding: 2vh;
+        margin: 1vh 1vh 2vh 1vh;
+    }
+/* diseño de título de ingredientes */
+
     .ingredients h2 {
         font-size: 5vh;
         margin-left: 1vh;
     }
     hr {
         margin-left: 1vh;
-        width: 98%;
+        width: 95%;
     }
-} */
+/* diseño de instruction */
+    .Instruction {
+        width: 95%;
+        padding: 2vh;
+        margin: 1vh 1vh 2vh 1vh;
+    }
+/* diseño de título de instruction */
+    .Instruction h2 {
+        font-size: 5vh;
+        margin-left: 1vh;
+    }
+/* diseño de contenido de instruction */
+    .Instruction li::marker {
+        font-size: 3.5vh;
+        padding-left: 2vh;
+    }
+/* diseño de contenido de instruction */
+    .Instruction li{
+        margin: 3vh;
+    }
+/* diseño de nutrición */
+    .nutrition {
+        width: 95%;
+        padding: 2vh;
+        margin: 1vh 1vh 2vh 1vh;
+    }
+/* diseño de título de nutrición */
+    .nutrition h2 {
+        font-size: 5vh;
+        margin-left: 1vh;
+    }
+    .nutrition p {
+        font-size: 3.5vh;
+        padding-left: 2vh;
+    }
+    .nutrition table {
+        margin: 2vh 0 0 1vh;
+    }
+    .nutrition th, .nutrition td {
+        padding: 2vh 0 2vh 3vh;
+        font-size: 3.5vh;
+    }
+        .nutrition td {
+            font-size: 3.5vh;
+        }
+        
+}
