@@ -176,10 +176,11 @@ hr {
     color: hsl(14, 45%, 36%);
 }
 /* Responsive design */
-/* @media (max-width: 1200px) {
+ @media (max-width: 1200px) {
     .container {
         width: 90%;
     }
+/*
     .cont_content {
         padding: 2vh;
     }
