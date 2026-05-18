@@ -63,15 +63,14 @@ p {
     font-weight: 400;
     width: 100%;
 }
-/* Pausa de pensar......*/
 
 /* diseño de preparacion */
 .preparation {
-    margin-left: 2vh;
+    margin-left: 1vh;
     padding: 2vh;
-    width: 94.5%;
+    width: 94%;
     background-color: hsl(330, 100%, 98%);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 /* diseño de título de preparacion */
@@ -95,7 +94,7 @@ li {
 
 /* diseño de ingredientes */
 .ingredients {
-    margin: 2vh 0 2vh -2vh;
+    margin: 2vh 0 2vh -3vh;
     padding: 2vh;
     width: 100%;
 }
@@ -103,8 +102,9 @@ li {
 /* diseño de título de ingredientes */ 
 .ingredients h2 {
     font-family: Outfit;
+    font-weight: 600;
     font-size: 6.5vh;
-    margin: 1vh 0 1vh 3vh;
+    margin: 1vh 4vh 1vh 3vh;
     padding: 0;
     color:  hsl(14, 45%, 36%);
 }
@@ -201,6 +201,18 @@ hr {
         padding: 2vh;
         margin: 1vh 1vh 1vh 2vh;
     }
+/* diseño de imagen */
+    .image {
+        margin: 3vh 1vh 0 1vh;
+        padding: 0;
+        width: 98%;
+    }
+
+/* diseño de img */
+    .image img {
+        width: 100%;
+        border-radius: 10px;
+    }
 
 /* diseño de descripción */
     .description {
@@ -209,22 +221,17 @@ hr {
         width: 98%;
     }
 /* diseño de texto de descripción */
-.info_Text {
-        margin: 2vh 1vh 0 1vh;
+    .description p {
+        margin: 4vh 0 4vh -2vh; ;
         padding: 0;
-        width: 99%;
+        width: 98%;
     }
-
 /* diseño de letras */
     h1 {
         font-size: 7.5vh;
     }
     p {
         font-size: 4vh;
-    }
-/* diseño de imagen */
-    .description img {
-        width: 100%;
     }
 /* diseño de preparación */
     .preparation {
@@ -305,7 +312,7 @@ hr {
 
 }
 
-@media (max-width: 1199px) and (max-height: 900px) and (min-width: 1000px) and (min-height: 500px) {
+@media (max-width: 1199px) and (max-height: 900px) and (min-width: 1000px) and (min-height: 600px) {
     .container {
         width: 100%;
         border-radius: 0;
@@ -318,6 +325,21 @@ hr {
         padding: 2vh;
         margin: 2vh 0vh 0 3vh;
     }
+
+/* diseño de imagen */
+    .image {
+        margin: 4vh 1vh 0 1vh;
+        padding: 0;
+        width: 98%;
+    }   
+/* diseño de img */
+    .image img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+/*pause*/
+
 /* diseño de descripción */
     .description {
         margin: 2vh 0 0 3vh;
@@ -325,21 +347,18 @@ hr {
         width: 96%;
     }
 /* diseño de texto de descripción */
-.info_Text {       
-        margin: 0;
+    .description p {
+        margin: 4vh 0 4vh -2vh; ;
         padding: 0;
         width: 96%;
     }
+
 /* diseño de letras */
     h1 {
         font-size: 7vh;
     }
     p {
         font-size: 3.8vh;
-    }
-/* diseño de imagen */
-    .description img {
-        width: 100%;
     }
 /* diseño de preparación */
     .preparation {
